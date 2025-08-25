@@ -1,8 +1,10 @@
-
 package mixrepaso.tp2;
 
+//Integrantes: Manceñido Xenia, Ortiz Lourdes, Ortiz Santiago, Ozan Santiago
 
+//Clase base castor
 public class Castor {
+    // Atributos
     protected double longitudCola ; 
     protected double velocidad; 
 
@@ -25,7 +27,8 @@ public class Castor {
      public double getVelocidad() {
         return velocidad; 
     }      
-    
+     
+    // Método para nadar
  public void nadar() { 
      System.out.println("El castor nada a " + velocidad + " km/h con su cola de " + longitudCola + " cm.");   
 

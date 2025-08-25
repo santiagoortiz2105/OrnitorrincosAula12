@@ -1,5 +1,7 @@
-
 package mixrepaso.tp2;
+
+//Integrantes: Manceñido Xenia, Ortiz Lourdes, Ortiz Santiago, Ozan Santiago
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
