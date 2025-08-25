@@ -1,6 +1,8 @@
 
 package mixrepaso.tp2;
 
+import java.util.Random;
+
 
 public class Castor {
     protected double longitudCola ; 
@@ -31,7 +33,13 @@ public class Castor {
 
  }
  
-
+public void tocarGuitarra() {
+        Random rand = new Random();
+        for (int i = 0; i < 3; i++) {
+            int cuerda = rand.nextInt(6) + 1;
+            System.out.println("Toca cuerda " + cuerda);
+        }
+    }
     
     
     

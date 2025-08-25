@@ -17,15 +17,6 @@ public class OrniVerde extends Castor implements MamaPata {
     }
    
     
-    public void tocarGuitarra(){
-        System.out.println("Tocando guitarra...");
-        for(int i=1; i<=3; i++){
-            int cuerda= ThreadLocalRandom.current().nextInt(1,7);
-            System.out.println("Toca cuerda: " + cuerda);
-        }
-        
-        
-    }
     @Override
     public void tocarOrgano(Scanner sc) {
        System.out.println("Do-Re-Mi");
@@ -39,9 +30,9 @@ public class OrniVerde extends Castor implements MamaPata {
 
     public void tocarGuitorgan(Scanner sc) {
     System.out.println("Sonando el GUITORGAN...");
-    tocarGuitarra();     
-    tocarOrgano(sc);   
-    System.out.println( "Fin del guitorgan!");
+    super.tocarGuitarra();     
+    this.tocarOrgano(sc);   
+    System.out.println( "cuack cuack...!");
 }
     
     
