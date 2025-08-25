@@ -60,9 +60,11 @@ public class MixRepasoTP2 {
         
                              //Arreglo con try-cath-finally 
                              
-         OrniVerde[] hermanos = new OrniVerde[3];
+         Castor[] hermanos = new Castor[3];
         try {
+            hermanos[0]= azul1; 
             hermanos[1] = verde; // Queda guardada en posición 1
+            hermanos[2]= azul2; 
         } catch (ArrayIndexOutOfBoundsException e) {
             System.out.println("Error de índice en el arreglo: " + e.getMessage());
         } finally {

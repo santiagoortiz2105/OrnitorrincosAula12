@@ -1,6 +1,11 @@
 package mixrepaso.tp2;
 
+
 //Integrantes: Manceñido Xenia, Ortiz Lourdes, Ortiz Santiago, Ozan Santiago
+
+import java.util.Random;
+
+
 
 //Clase base castor
 public class Castor {
@@ -34,7 +39,13 @@ public class Castor {
 
  }
  
-
+public void tocarGuitarra() {
+        Random rand = new Random();
+        for (int i = 0; i < 3; i++) {
+            int cuerda = rand.nextInt(6) + 1;
+            System.out.println("Toca cuerda " + cuerda);
+        }
+    }
     
     
     
