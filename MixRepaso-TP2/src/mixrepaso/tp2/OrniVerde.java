@@ -35,11 +35,7 @@ public class OrniVerde extends Castor implements MamaPata {
     System.out.println( "cuack cuack...!");
 }
     
-    
-    @Override
-    public void nadar() {
-      System.out.println("El Ornitorrinco verde nada a una velocidad de " + velocidad + "km/h"); 
-    }
+   
     
     
     
